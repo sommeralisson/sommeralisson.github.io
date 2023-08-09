@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+  font-weight: bold;
+
+  font-size: 14px;
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  list-style: none;
+  text-decoration: underline;
+  color: #808080;
+}
+
+table {
+  width: 50%;
+  height: 20%;
+
+  min-width: 500px;
+  min-height: 190px;
+  
+  max-width: 530px;
+  max-height: 200px;
+  
+  border-spacing: 5px;
+}
+
+td {
+  vertical-align: middle;
+  padding: 5px;
+}
+
+.table-title {
+  background: #000;
+  color: #FFF;
+  padding: 30px 10px;
+  text-align: start;
+  font-size: 18px;
+}
+
+.table-first-tr {
+  background: #797979;
+  color: #ffffff;
+}
+
+.table-content-tr {
+  background: rgba(0, 0, 0, 0.1);
+  color: #a0a0a0;
+}
